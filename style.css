@@ -1,0 +1,59 @@
+.container{
+  background-color: rgb (229, 238, 225);
+  color: blue;
+  font-family: 'Helvetica';
+  font-size: 20px;
+}
+
+.header-behavior{
+  color: white;
+  font-size: 26px;
+}
+
+.special-one{
+  background-color: rgba (229, 238, 225);
+}
+
+.background{
+  background-color: pink;
+}
+
+body{
+  padding-bottom: 50px;
+
+}
+
+p{
+  font-family: 'Helvatica', arial;
+  font-size: 1.5em;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+h1{
+  text-align: center;
+  font-family: 'Helvetica', Arial;
+}
+
+h2{
+  text-align: center;
+}
+
+h3{
+  text-align: center;
+  font-size: 1em;
+}
+h4{
+  text-align: left;
+}
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Helvetica"
+    font-color: white;
+    font size: 60px;
+}
