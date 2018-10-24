@@ -1,30 +1,25 @@
 .container{
-  background-color: rgb (229, 238, 225);
-  color: blue;
-  font-family: 'Helvetica';
+  background-color: rgba(137, 192, 232, 0.5);
+  color: black;
+  font-family: 'Open Sans', sans-serif;
   font-size: 20px;
 }
 
 .header-behavior{
-  color: white;
+  color: black;
   font-size: 26px;
 }
 
-.special-one{
-  background-color: rgba (229, 238, 225);
-}
-
 .background{
-  background-color: pink;
+  background-color: black;
 }
-
 body{
   padding-bottom: 50px;
 
 }
 
 p{
-  font-family: 'Helvatica', arial;
+font-family: 'Open Sans', sans-serif;
   font-size: 1.5em;
   text-align: center;
   margin-left: 50px;
@@ -32,12 +27,14 @@ p{
 }
 
 h1{
-  text-align: center;
-  font-family: 'Helvetica', Arial;
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  color: black;
 }
 
 h2{
   text-align: center;
+  color: black;
 }
 
 h3{
@@ -45,15 +42,57 @@ h3{
   font-size: 1em;
 }
 h4{
-  text-align: left;
+  text-align: center;
+}
+h5{
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  font-size: 4em;
+  color: white
+}
+
+h6{
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 2em;
+  color: white
 }
 /* Centered text */
 .centered {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 60%;
+    left: 53%;
     transform: translate(-50%, -50%);
-    font-family: "Helvetica"
-    font-color: white;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
     font size: 60px;
+}
+.my-proj-button:visited, .my-proj-button:link {
+  border: solid 2px white;
+  background-color: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 1em;
+
+}
+
+.my-proj-button:hover {
+  background-color: white;
+  text-decoration: none;
+  color: white;
+
+}
+
+.my-proj-active:visited, .my-proj-active:link {
+  border: solid 2px white;
+/*   background-color: white; */
+}
+
+.container{
+  margin-top:50px;
+  text-align: center;
 }
